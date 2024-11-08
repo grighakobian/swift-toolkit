@@ -295,7 +295,7 @@ public extension MediaType {
 
     private static let bitmapExtensions = [
         "bmp", "dib", "gif", "jif", "jfi", "jfif", "jpg", "jpeg", "png", "tif",
-        "tiff", "webp",
+        "tiff", "webp", "pdf"
     ]
 
     private static let audioExtensions = [

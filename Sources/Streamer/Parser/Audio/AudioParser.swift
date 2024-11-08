@@ -57,7 +57,7 @@ public final class AudioParser: PublicationParser {
     private func ignores(_ link: Link) -> Bool {
         let url = URL(fileURLWithPath: link.href)
         let filename = url.lastPathComponent
-        let allowedExtensions = ["asx", "bio", "m3u", "m3u8", "pla", "pls", "smil", "txt", "vlc", "wpl", "xspf", "zpl"]
+        let allowedExtensions = ["asx", "bio", "m3u", "m3u8", "pla", "pls", "smil", "txt", "vlc", "wpl", "xspf", "zpl", "pdf", "jpg"]
 
         return allowedExtensions.contains(url.pathExtension.lowercased())
             || filename.hasPrefix(".")
